@@ -18,7 +18,7 @@
 @import 'bootstrap';
 
 
-body, .navbar {
+.navbar, .home-callout {
 //gradient provided by @_ighosh at uigradients.com
   background: #232526; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
@@ -34,4 +34,12 @@ body, .navbar {
 h1, h2, h3
 {
   font-family: 'Open Sans', sans-serif;
+}
+
+.home-callout
+{
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color:white;
 }
